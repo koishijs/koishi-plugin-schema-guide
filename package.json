@@ -1,0 +1,50 @@
+{
+  "name": "koishi-plugin-schema-guide",
+  "description": "A guide for writing config schema",
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": "Shigma <shigma10826@gmail.com>",
+  "scripts": {
+    "build": "tsc -b && koishi-console build"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koishijs/koishi-plugin-schema-guide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/koishijs/koishi-plugin-schema-guide/issues"
+  },
+  "homepage": "https://github.com/koishijs/koishi-plugin-schema-guide",
+  "keywords": [
+    "bot",
+    "chatbot",
+    "koishi",
+    "plugin",
+    "console",
+    "guide",
+    "schema",
+    "config",
+    "tutorial"
+  ],
+  "koishi": {
+    "description": {
+      "en": "A guide for writing config schema",
+      "zh": "用插件配置教会你如何编写插件配置！"
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.10.0"
+  },
+  "devDependencies": {
+    "@koishijs/client": "^5.1.1",
+    "@types/node": "^18.11.18",
+    "koishi": "^4.11.1",
+    "typescript": "^4.9.4"
+  }
+}
